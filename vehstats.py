@@ -1,9 +1,6 @@
 import matplotlib.pyplot as plt
 import csv
 
-# I couldn't quite figure out how to combine 4 plots in to one image.
-# So instead i save 4 separate files
-
 labels = []
 makeIndex = 0
 kmIndex = 0
