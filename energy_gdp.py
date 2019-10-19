@@ -16,7 +16,6 @@ root2 = energyData2.getroot()
 root3 = gdpData.getroot()
 root4 = gdpData2.getroot()
 
-
 energyList = []
 gdpList = []
 
