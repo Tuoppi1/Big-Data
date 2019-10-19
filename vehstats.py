@@ -18,7 +18,6 @@ co2Dict = {"less than 100g/km":0,"101-125g/km":0,"126-150g/km":0,\
            "151-175g/km":0,"176-200g/km":0,"201-225g/km":0,"226-250g/km":0,\
            "more than 250g/km":0,}
 
-
 with open("Ajoneuvojen avoin data 5.3.csv","r",encoding="utf8",errors="ignore") as ajoneuvoData:
     reader = csv.reader(ajoneuvoData)
     for line in reader: # Geting the column labels
