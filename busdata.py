@@ -3,6 +3,7 @@ import requests
 import csv
 import time
 
+
 fileName = sys.argv[1]
 timeInterval = int(sys.argv[2])
 recordTime = float(sys.argv[3])
