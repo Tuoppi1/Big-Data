@@ -2,8 +2,7 @@ from mrjob.job import MRJob
 import re
 pattern = re.compile(r"[\w']+")
 
-class wordCount(MRJob):
-    
+class wordCount(MRJob):    
     def mapper(self, _, line):
         for word in pattern.findall(line):
             yield word.lower(), 1
