@@ -1,6 +1,7 @@
 import pandas as pd
 from scipy.spatial.distance import pdist, squareform
 
+
 df = pd.read_csv("lastfm-matrix-germany.csv",delimiter=",",encoding="latin")
 df.set_index('user', inplace=True)
 df = df.loc[(df).any(1), (df!=0).any(0)]
