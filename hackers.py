@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 # Current proxy worked for me at least
 # Use your default IP address by removing proxies parameter from requests.get(url,proxies).json() (line 30)
 
+
 file = open("logins.txt")
 hackList = []
 ipAddressList = []
